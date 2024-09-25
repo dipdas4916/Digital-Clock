@@ -7,10 +7,10 @@ setInterval(function(){
         case 1:
             day = 'Monday';
             break;
-        case 1:
+        case 2:
             day = 'Tuesday';
             break;
-        case 1:
+        case 3:
             day = 'Wednesday';
             break;
         case 4:
@@ -25,8 +25,11 @@ setInterval(function(){
         case 7:
             day = 'Sunday';
             break;
+        case 0:
+            day = 'Sunday'
+            break;
         default:
-            day = 'Sunday';
+            day = '';
             break;
             
     }
